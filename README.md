@@ -1,2 +1,2 @@
 # WerkOut-Flexbox
-A personal web development coding project made using HTML, CSS, and Flexbox to create a responsive pricing plans page.
+A personal web development coding project made using HTML, CSS, and Flexbox to create a responsive pricing plans page, which can be found in index.html.
