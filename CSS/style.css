@@ -1,0 +1,158 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.header-container {
+    display: flex;
+    margin: 0 0 1vh 0;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container > h2 {
+    margin-bottom: 0;
+    height: 100%;
+    width: 10%;
+}
+
+.header-container > button  {
+    width: 10%;
+    border: none;
+    background-color: white;
+    transition-duration: 0.25s;
+    align-self: stretch;
+}
+
+.header-container > button:hover {
+    background-color: #FAFAFA;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.plan-container {
+    display: flex;
+    min-height: 85vh;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan-card {
+    background-color: white;
+    border-radius: 7.5%;
+    padding: 0 0 4vh 0;
+    flex-basis: 5%;
+    max-height: 70vh;
+    min-width: 30vh;
+    max-width: 38vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.plan-header {
+    margin: 0 0 8vh 0;
+    color: white;
+    padding: 4vh 0 2vh 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.plan-header > hr {
+    max-width: 50%;
+}
+
+.plan-header > p {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    height: 2.5vh;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 3vh;
+}
+
+.plan-price > .span-currency {
+    font-size: 33%;
+    vertical-align: top;
+}
+
+.plan-price > .span-duration {
+    font-size: 33%;
+    vertical-align: sub;
+}
+
+.plan-content > hr {
+    max-width: 50%;
+}
+
+.plan-content > p {
+    font-size: 75%;
+}
+
+ul {
+    margin: 4vh 0 8vh 0;
+    height: 10vh;
+    color: #373737;
+}
+
+.plan-card  button {
+    margin-bottom: 3vh;
+    width: 50%;
+    font-size: 100%;
+    color: white;
+    border: none;
+    height: 5vh;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.plan-card button:hover {
+    width: 60%;
+}
+
+.plan-recommended {
+    width: 50%;
+    margin-left: 25%;
+    height: 2.5vh;
+    margin-top: 4.5vh;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-container {
+    display: flex;
+    height: 5vh;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    background-color: white;
+    color: #373737;
+    margin-top: 2vh
+}
+
+.blue-gradiant {
+    background: linear-gradient(315deg, #2E3192 40%, #1BFFFF)
+}
+
+.sanguine-gradiant {
+    background: linear-gradient(315deg, #D4145A 40%, #FBB03B)
+}
+
+.purple-gradiant {
+    background: linear-gradient(315deg, #662D8C 40%, #ED1E79)
+}
+
+@media (max-width: 500px) {
+    .header-container > h2 {
+        display: none;
+    }
+    body {
+        font-size: 80%;
+    }
+}
